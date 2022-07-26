@@ -94,7 +94,7 @@ hr {
 }
 
 blockquote {
-    border-left: 5px solid #42b983;
+    border-left: 5px solid #8776f8;
     padding: 1rem 0.8rem 0.2rem 0.8rem;
     color: #666;
     background-color: rgba(66, 185, 131, .1);
@@ -116,8 +116,8 @@ pre {
     top: 0;
     left: 12px;
     margin-top: 12px;
-    -webkit-box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
-    box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
+    -webkit-box-shadow: 20px 0 #ffbd2e, 40px 0 #a395fa;
+    box-shadow: 20px 0 #ffbd2e, 40px 0 #a395fa;
 }
 
 code {
@@ -1158,7 +1158,7 @@ article .article-tags .chip {
 
 #artDetail .reprint a {
     font-size: 1.05rem;
-    color: #42b983;
+    color: #8776f8;
     font-weight: 500;
 }
 
@@ -1317,7 +1317,7 @@ thead {
 
 .chip-container .chip:hover {
     color: #fff;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%) !important;
+    background: linear-gradient(to right, #a49ae6 0%, #735DFA 100%) !important;
 }
 
 .chip .tag-length {
@@ -1630,7 +1630,7 @@ thead {
     padding: 0;
     color: #fff;
     border: 1px solid #8776f8;
-    background: radial-gradient(#4cbf30, #0f9d58);
+    background: radial-gradient(#a49ae6, #735DFAs);
     font-size: 0.9rem;
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(50, 50, 93, .21), 0 2px 3px rgba(0, 0, 0, .1);
@@ -2319,6 +2319,20 @@ body.DarkMode .skillbar .skill-bar-percent {
     color: #000;
 }
 
+body.DarkMode .search-result-list .search-result-title {
+    font-size: 1.4rem;
+    color: #8776f8 !important;
+}
+
+body.DarkMode .search-header .title {
+    font-size: 1.6rem;
+    color: #8776f8 !important;
+}
+
+body.DarkMode .search-input {
+    font-size: 1.0rem;
+    color: #8776f8 !important;
+}
 
 
 
