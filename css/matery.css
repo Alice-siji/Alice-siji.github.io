@@ -4,12 +4,30 @@
     .container {
         width: 95%;
     }
+
+    .test {
+        padding-bottom: 20px;
+    }
+
+    .container .row .search_row {
+        padding-top: 40px;
+
+    }
 }
 
 /*中等屏幕下(平板类)的样式*/
 @media only screen and (min-width: 600px) and (max-width: 992px) {
     .container {
         width: 90%;
+    }
+
+    .test {
+        padding-bottom: 20px;
+    }
+
+    .container .row .search_row {
+        padding-top: 40px;
+
     }
 }
 
@@ -30,6 +48,28 @@
         width: 90%;
         margin: 0 auto;
         max-width: 1250px;
+    }
+
+    .container .row .search_row {
+        padding-top: 40px;
+
+    }
+
+    /* .search_row { */
+    /* width: 85%; */
+    /* padding-top: 40px; */
+    /* margin: 0 auto; */
+    /* height: 380px; */
+    /* padding-bottom: 10px; */
+
+    /* } */
+
+    .search_label {
+        padding-bottom: 20px;
+    }
+
+    .test {
+        padding-bottom: 20px;
     }
 }
 
@@ -2304,6 +2344,12 @@ body.DarkMode #posts-chart {
     filter: invert(1);
 }
 
+body.DarkMode .test a {
+    font-size: 1.0rem;
+    color: #8776f8 !important;
+}
+
+
 /* toc目录滤镜*/
 /* body.DarkMode .toc-widget {
   filter: invert(1); */
@@ -2324,6 +2370,7 @@ body.DarkMode .search-result-list .search-result-title {
     font-size: 1.4rem;
     color: #8776f8 !important;
 }
+
 
 body.DarkMode .search-header .title {
     font-size: 1.6rem;
