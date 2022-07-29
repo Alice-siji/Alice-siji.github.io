@@ -336,7 +336,7 @@ header .brand-logo .logo-img {
 }
 
 header .brand-logo .logo-span {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 
 /*修改顶部 logo 的文字垂直对齐为 top，避免默认 middle 看起来偏下*/
@@ -622,7 +622,7 @@ header .go-back i {
 
 .bg-cover .description {
     font-weight: 300;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     line-height: 1.4em;
     color: #eee;
 }
@@ -633,7 +633,7 @@ header .go-back i {
     font-weight: 400;
 }
 
-@-webkit-keyframes rainbow {
+/* @-webkit-keyframes rainbow {
 
     0%,
     100% {
@@ -677,9 +677,9 @@ header .go-back i {
         background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
     }
-}
+} */
 
-@keyframes rainbow {
+/* @keyframes rainbow {
 
     0%,
     100% {
@@ -723,7 +723,7 @@ header .go-back i {
         background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
     }
-}
+} */
 
 .index-card {
     margin-top: -10px;
@@ -749,7 +749,8 @@ header .go-back i {
 
 .dream .text {
     opacity: .6;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    color: #000;
 }
 
 .music-player,
@@ -2182,6 +2183,7 @@ footer .copy-right {
 
 
 
+
 /* 深色模式动画 */
 
 /* .Cuteen_DarkSky,
@@ -2271,7 +2273,7 @@ footer .copy-right {
 /* 字体颜色变灰白色 */
 body.DarkMode .toc-title,
 /* body.DarkMode .fas, */
-body.DarkMode .title,
+/* body.DarkMode .title, */
 body.DarkMode .row .text,
 body.DarkMode article .article-content .summary,
 body.DarkMode .card .card-image,
@@ -2311,6 +2313,7 @@ body.DarkMode.read .bg-cover .description {
 /* 背景颜色变灰色 */
 body.DarkMode .card,
 body.DarkMode .toc-widget .card,
+body.DarkMode .right11,
 body.DarkMode .block-with-text:after {
     background-color: #282c34;
 }
@@ -2344,7 +2347,7 @@ body.DarkMode #posts-chart {
     filter: invert(1);
 }
 
-body.DarkMode .test a {
+body.DarkMode .test .p1:hover {
     font-size: 1.0rem;
     color: #8776f8 !important;
 }
