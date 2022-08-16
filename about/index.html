@@ -508,10 +508,80 @@
     .about-cover {
         height: 75vh;
     }
+    
+    #aboutpart {
+        margin: 0 auto;
+        width: 85%;
+        box-shadow: 0 0 4px 1px rgba(0,0,0,.12)!important; 
+        border: 1px dashed #e0edef;
+        border-radius: 10px;
+        /* padding-bottom: 50px; */
+        /* padding-bottom: 163px; */
+        /* background-image: url(/image/tutu.jpg); */
+        /* background: url(/image/tutu.jpg); */
+        /* background-position: right bottom, left top;s */
+        /* background-size: 1000px 300px; */
+        /* background-repeat: no-repeat; */
+        padding-top: -10px;
+        /* background-position: right bottom; */
+       
+        /* padding: 15px; */
+
+    }
+
+    h3 {
+        padding-bottom: 10px;
+        
+    }
     .part {
         width: 80%;
         margin: 0 auto;
+        text-align: left;
+        padding-left: 25px;
+        padding-bottom: 30px;
+        /* padding-top: 60px; */
     }
+    p {
+        padding: 5px;
+    }
+    .card-v {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 20px;
+        
+    }
+    hr {
+    box-sizing: content-box!important;
+    height: 0;
+    overflow: visible;
+    position: relative;
+    margin: 2rem auto!important;
+    width: calc(100% - 4px);
+    border: 2px dashed #a091f7!important;
+    background: #fff;
+    margin-top: 60px !important;
+    margin-bottom: 50px !important;
+   }
+   hr:before {
+    position: absolute;
+    top: -10px;
+    left: 5%;
+    z-index: 1;
+    color: #7863f8;
+    content: '\f0fb';
+    font: normal normal normal 14px/1 'Font Awesome\ 5 Free';
+    font-weight: 900;
+    font-size: 20px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    /* padding-top: 30px; */
+   }
+
+    
 </style>
 
 <div class="bg-cover pd-header about-cover">
@@ -647,24 +717,48 @@
                     </div>
                 </div>
 
-                <div class="aboutpart" style="margin: 0 auto; width:80% ;padding-top: 40px;">
-                    <div style="text-align: center; font-size: 2rem;
-                        margin-bottom: 2.25rem;">关于我</div>
-                    <div class="part">
-                        <div><p><li>简介：Adhere to laws and regulations.  abide by the bottom line of morality.Resolutely resist cyber violence</li></p></div>
-                        <div><p><li>作者：Attack网暴之队</li></p></div>
-                        <div><p><li>职位：大学生</li></p></div>
-                        <div><p><li>学校：Sziit (深圳信息职业技术学院）</li></p></div>
-                        <div><p><li>邮箱联系：1942152399@qq.com</li></p></div>
-                        <div><p><li>微信：LinnFengZi</li></p></div>
+                
+                
+
+                <!-- <div class="introduction center-align" data-aos="fade-up">Adhere to laws and regulations. Strictly abide by the bottom line of morality.Resolutely resist cyber violence</div> -->
+                <div class="introduction center-align" data-aos="fade-up" style="margin-bottom: 80px !important;">Adhere to laws and regulations.<br> Strictly abide by the bottom line of morality.Resolutely resist cyber violence.</div>
+
+              
+                
+
+                <div id="aboutpart">
+                   <div class ="card-v">
+                    <div class="tag-title center-align">
+                       
+                        <h3><i class="fas fa-user-circle"></i>&nbsp;&nbsp;关于我们</h3>
                     </div>
+                    
+                    <div class="part row center-align">
+                        <!-- <div><p><li>简介：Adhere to laws and regulations.  abide by the bottom line of morality.Resolutely resist cyber violence</li></p></div> -->
+                        <div class="part1 form-group col s12 m6 l6" style="float: left;">
+                            <div><p><li>作者：Attack网暴之队</li></p></div>
+                            <div><p><li>职位：大学生</li></p></div>
+                            <div><p><li>学校：Sziit (深圳信息职业技术学院）</li></p></div>
+                        </div>
+                        <div class="part2 form-group col s12 m6 l6" style="float: left;">
+                            <div><p><li>邮箱联系：1942152399@qq.com</li></p></div>
+                            <div><p><li>微信：LinnFengZi</li></p></div>
+                            
+                        </div>
+                    
+                    </div>
+                    
+                   </div>
+
+                    
+    
                 
 
                 </div>
 
-                <!-- <div class="introduction center-align" data-aos="fade-up">Adhere to laws and regulations. Strictly abide by the bottom line of morality.Resolutely resist cyber violence</div> -->
-                <!-- <div class="introduction center-align" data-aos="fade-up">Adhere to laws and regulations.<br> Strictly abide by the bottom line of morality.Resolutely resist cyber violence.</div> -->
+                <hr data-aos="fade-right" class="aos-init"></hr>
 
+            
                 <style type="text/css">
     #posts-chart,
     #categories-chart,
@@ -714,7 +808,7 @@
         },
         xAxis: {
             type: 'category',
-            data: ["2021-07","2021-08","2021-09","2021-10","2021-11","2021-12","2022-01","2022-02","2022-03","2022-04","2022-05","2022-06","2022-07"]
+            data: ["2021-08","2021-09","2021-10","2021-11","2021-12","2022-01","2022-02","2022-03","2022-04","2022-05","2022-06","2022-07","2022-08"]
         },
         yAxis: {
             type: 'value',
@@ -724,7 +818,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,0,83],
+                data: [0,0,0,0,0,0,0,0,0,0,0,83,0],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],

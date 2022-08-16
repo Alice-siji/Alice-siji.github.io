@@ -13,6 +13,24 @@
         padding-top: 40px;
 
     }
+
+    /* #aboutpart {
+        margin: 0 auto;
+        width:85% ;
+        padding-bottom: 163px;
+        background: url(/image/tutu.jpg);
+        background-size: 340px 350px;
+        background-repeat: no-repeat;
+        padding-top: -10px;
+    } */
+
+    /* .part {
+        width: 90%;
+        margin: 0 auto;
+        text-align: left;
+        padding-left: 90px;
+        padding-top: 40px;
+    } */
 }
 
 /*中等屏幕下(平板类)的样式*/
@@ -29,6 +47,24 @@
         padding-top: 40px;
 
     }
+
+    /* #aboutpart {
+        margin: 0 auto;
+        width:85% ;
+        padding-bottom: 163px;
+        background: url(/image/tutu.jpg);
+        background-size: 740px 300px;
+        background-repeat: no-repeat;
+        padding-top: -10px;
+    }
+
+    .part {
+        width: 85%;
+        margin: 0 auto;
+        text-align: left;
+        padding-left: 180px;
+        padding-top: 60px;
+    } */
 }
 
 /*大屏幕下(桌面类)的样式*/
@@ -71,6 +107,34 @@
     .test {
         padding-bottom: 20px;
     }
+
+    /* #aboutpart {
+        margin: 0 auto;
+        width: 85%; */
+    /* box-shadow: 0 0 4px 1px rgba(0,0,0,.12)!important;  */
+    /* border: 1px dashed #e0edef; */
+    /* border-radius: 10px; */
+    /* padding-bottom: 50px; */
+    /* padding-bottom: 163px; */
+    /* background-image: url(/image/tutu.jpg); */
+    /* background: url(/image/tutu.jpg); */
+    /* background-position: right bottom, left top;s */
+    /* background-size: 1000px 300px; */
+    /* background-repeat: no-repeat; */
+    /* padding-top: -10px; */
+    /* background-position: right bottom; */
+
+    /* padding: 15px; */
+
+    /* }
+
+    .part {
+        width: 85%;
+        margin: 0 auto;
+        text-align: left;
+        padding-left: 220px;
+        padding-top: 60px;
+    } */
 }
 
 body {
